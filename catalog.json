@@ -1,0 +1,846 @@
+{
+  "schema_version": 1,
+  "title": "英语词根学习",
+  "courses": [
+    {
+      "id": "pose-vert-scenes",
+      "title": "pose / vers · vert",
+      "order": 1,
+      "status": "ready",
+      "description": "放到哪里，往哪边转：从动作理解词义。",
+      "roots": [
+        {
+          "id": "pose",
+          "label": "pose · 放",
+          "meaning": "放"
+        },
+        {
+          "id": "vert",
+          "label": "vers / vert · 转",
+          "meaning": "转"
+        }
+      ],
+      "wordCount": 15,
+      "coreWordCount": 12,
+      "supplementWordCount": 3,
+      "href": "courses/pose-vert/output/lesson.html",
+      "words": [
+        {
+          "word": "expose",
+          "root": "pose",
+          "meaning": "使显露；暴露；揭露"
+        },
+        {
+          "word": "compose",
+          "root": "pose",
+          "meaning": "创作；组成"
+        },
+        {
+          "word": "propose",
+          "root": "pose",
+          "meaning": "提议；求婚"
+        },
+        {
+          "word": "oppose",
+          "root": "pose",
+          "meaning": "反对"
+        },
+        {
+          "word": "dispose",
+          "root": "pose",
+          "meaning": "处理；丢弃（此处用 dispose of）"
+        },
+        {
+          "word": "impose",
+          "root": "pose",
+          "meaning": "强加；施加；推行（规定等）"
+        },
+        {
+          "word": "depose",
+          "root": "pose",
+          "meaning": "罢免；废黜"
+        },
+        {
+          "word": "reverse",
+          "root": "vert",
+          "meaning": "倒转；颠倒；扭转"
+        },
+        {
+          "word": "convert",
+          "root": "vert",
+          "meaning": "转化；改变"
+        },
+        {
+          "word": "divert",
+          "root": "vert",
+          "meaning": "使改道；转移（注意力等）"
+        },
+        {
+          "word": "introvert",
+          "root": "vert",
+          "meaning": "内向的人（名词）"
+        },
+        {
+          "word": "extrovert",
+          "root": "vert",
+          "meaning": "外向的人（名词）"
+        },
+        {
+          "word": "controversy",
+          "root": "vert",
+          "meaning": "争议；争论（名词）"
+        },
+        {
+          "word": "avert",
+          "root": "vert",
+          "meaning": "移开（目光）；避免"
+        },
+        {
+          "word": "anniversary",
+          "root": "vert",
+          "meaning": "周年纪念（日）"
+        }
+      ]
+    },
+    {
+      "id": "press-form-scenes",
+      "title": "press / form",
+      "order": 2,
+      "status": "ready",
+      "description": "看压的方向和形态的变化，结合前后缀理解单词。",
+      "roots": [
+        {
+          "id": "press",
+          "label": "press · 压",
+          "meaning": "压"
+        },
+        {
+          "id": "form",
+          "label": "form · 形 / 形成",
+          "meaning": "形 / 形成"
+        }
+      ],
+      "wordCount": 17,
+      "coreWordCount": 12,
+      "supplementWordCount": 5,
+      "href": "press-form/output/press-form.html",
+      "words": [
+        {
+          "word": "compress",
+          "root": "press",
+          "meaning": "压缩"
+        },
+        {
+          "word": "depress",
+          "root": "press",
+          "meaning": "使心情低落；使萧条"
+        },
+        {
+          "word": "impress",
+          "root": "press",
+          "meaning": "使印象深刻"
+        },
+        {
+          "word": "express",
+          "root": "press",
+          "meaning": "表达"
+        },
+        {
+          "word": "suppress",
+          "root": "press",
+          "meaning": "抑制；压制"
+        },
+        {
+          "word": "repress",
+          "root": "press",
+          "meaning": "压抑（情绪）；抑制"
+        },
+        {
+          "word": "press",
+          "root": "press",
+          "meaning": "压；按"
+        },
+        {
+          "word": "transform",
+          "root": "form",
+          "meaning": "转变；改变"
+        },
+        {
+          "word": "reform",
+          "root": "form",
+          "meaning": "改革；改进"
+        },
+        {
+          "word": "deform",
+          "root": "form",
+          "meaning": "使变形"
+        },
+        {
+          "word": "conform",
+          "root": "form",
+          "meaning": "符合；遵守"
+        },
+        {
+          "word": "uniform",
+          "root": "form",
+          "meaning": "制服；统一的"
+        },
+        {
+          "word": "formula",
+          "root": "form",
+          "meaning": "公式；配方"
+        },
+        {
+          "word": "form",
+          "root": "form",
+          "meaning": "形成；形状"
+        },
+        {
+          "word": "formal",
+          "root": "form",
+          "meaning": "正式的"
+        },
+        {
+          "word": "multiform",
+          "root": "form",
+          "meaning": "多种形式的"
+        },
+        {
+          "word": "formulate",
+          "root": "form",
+          "meaning": "制定；系统阐述"
+        }
+      ]
+    },
+    {
+      "id": "vade-sens-scenes",
+      "title": "vade / sens · sent",
+      "order": 3,
+      "status": "ready",
+      "description": "看进入、躲避与弥漫，再区分感觉、理智和敏感。",
+      "roots": [
+        {
+          "id": "vade",
+          "label": "vade · 走",
+          "meaning": "走"
+        },
+        {
+          "id": "sens",
+          "label": "sens / sent · 感觉",
+          "meaning": "感觉"
+        }
+      ],
+      "wordCount": 11,
+      "coreWordCount": 9,
+      "supplementWordCount": 2,
+      "href": "courses/vade-sens/output/lesson.html",
+      "words": [
+        {
+          "word": "invade",
+          "root": "vade",
+          "meaning": "入侵；侵入"
+        },
+        {
+          "word": "evade",
+          "root": "vade",
+          "meaning": "逃避；躲避"
+        },
+        {
+          "word": "pervade",
+          "root": "vade",
+          "meaning": "弥漫；遍及"
+        },
+        {
+          "word": "sense",
+          "root": "sens",
+          "meaning": "感觉；意识；意义"
+        },
+        {
+          "word": "consent",
+          "root": "sens",
+          "meaning": "同意；准许"
+        },
+        {
+          "word": "resent",
+          "root": "sens",
+          "meaning": "怨恨；对……感到不满"
+        },
+        {
+          "word": "sensible",
+          "root": "sens",
+          "meaning": "理智的；合理的"
+        },
+        {
+          "word": "sensitive",
+          "root": "sens",
+          "meaning": "敏感的；易受影响的"
+        },
+        {
+          "word": "sentiment",
+          "root": "sens",
+          "meaning": "情感；观点"
+        },
+        {
+          "word": "nonsense",
+          "root": "sens",
+          "meaning": "胡说；无意义的话"
+        },
+        {
+          "word": "presentiment",
+          "root": "sens",
+          "meaning": "预感"
+        }
+      ]
+    },
+    {
+      "id": "claim-tract-scenes",
+      "title": "claim / tract",
+      "order": 4,
+      "status": "ready",
+      "description": "把说法喊出来，看物品和注意力被拉向哪里。",
+      "roots": [
+        {
+          "id": "claim",
+          "label": "claim · 喊 / 声称",
+          "meaning": "喊 / 声称"
+        },
+        {
+          "id": "tract",
+          "label": "tract · 拉 / 抽",
+          "meaning": "拉 / 抽"
+        }
+      ],
+      "wordCount": 11,
+      "coreWordCount": 11,
+      "supplementWordCount": 0,
+      "href": "courses/claim-tract/output/lesson.html",
+      "words": [
+        {
+          "word": "claim",
+          "root": "claim",
+          "meaning": "声称；索赔；认领"
+        },
+        {
+          "word": "proclaim",
+          "root": "claim",
+          "meaning": "宣布；宣告"
+        },
+        {
+          "word": "acclaim",
+          "root": "claim",
+          "meaning": "称赞；喝彩"
+        },
+        {
+          "word": "exclaim",
+          "root": "claim",
+          "meaning": "惊呼；大叫"
+        },
+        {
+          "word": "reclaim",
+          "root": "claim",
+          "meaning": "收回；重新利用；改造"
+        },
+        {
+          "word": "attract",
+          "root": "tract",
+          "meaning": "吸引"
+        },
+        {
+          "word": "distract",
+          "root": "tract",
+          "meaning": "使分心"
+        },
+        {
+          "word": "contract",
+          "root": "tract",
+          "meaning": "收缩；合同"
+        },
+        {
+          "word": "extract",
+          "root": "tract",
+          "meaning": "提取；抽出；拔出"
+        },
+        {
+          "word": "subtract",
+          "root": "tract",
+          "meaning": "减去；扣除"
+        },
+        {
+          "word": "abstract",
+          "root": "tract",
+          "meaning": "抽象的；摘要"
+        }
+      ]
+    },
+    {
+      "id": "flu-clude-scenes",
+      "title": "flu / clude",
+      "order": 5,
+      "status": "ready",
+      "description": "用流动和范围内外建立画面，区分确凿证据与无定论。",
+      "roots": [
+        {
+          "id": "flu",
+          "label": "flu · 流",
+          "meaning": "流"
+        },
+        {
+          "id": "clude",
+          "label": "clude · 关",
+          "meaning": "关"
+        }
+      ],
+      "wordCount": 13,
+      "coreWordCount": 12,
+      "supplementWordCount": 1,
+      "href": "courses/flu-clude/output/lesson.html",
+      "words": [
+        {
+          "word": "fluent",
+          "root": "flu",
+          "meaning": "流利的；流畅的"
+        },
+        {
+          "word": "affluent",
+          "root": "flu",
+          "meaning": "富裕的"
+        },
+        {
+          "word": "fluctuate",
+          "root": "flu",
+          "meaning": "波动；起伏"
+        },
+        {
+          "word": "superfluous",
+          "root": "flu",
+          "meaning": "多余的；过剩的"
+        },
+        {
+          "word": "flu",
+          "root": "flu",
+          "meaning": "流感（笔记补充；不是“流”的直接词根例词）"
+        },
+        {
+          "word": "include",
+          "root": "clude",
+          "meaning": "包括；包含"
+        },
+        {
+          "word": "exclude",
+          "root": "clude",
+          "meaning": "排除；不包括"
+        },
+        {
+          "word": "conclude",
+          "root": "clude",
+          "meaning": "结束；得出结论"
+        },
+        {
+          "word": "preclude",
+          "root": "clude",
+          "meaning": "阻止；使不可能"
+        },
+        {
+          "word": "exclusive",
+          "root": "clude",
+          "meaning": "专用的；排他的"
+        },
+        {
+          "word": "conclusive",
+          "root": "clude",
+          "meaning": "确凿的；决定性的"
+        },
+        {
+          "word": "inconclusive",
+          "root": "clude",
+          "meaning": "无定论的；不能确定的"
+        },
+        {
+          "word": "conclusion",
+          "root": "clude",
+          "meaning": "结论；结束"
+        }
+      ]
+    },
+    {
+      "id": "ject-sol-scenes",
+      "title": "ject / sol",
+      "order": 6,
+      "status": "ready",
+      "description": "从投射方向理解 ject，区分主观与客观；学习独处词族并纠正同形异源。",
+      "roots": [
+        {
+          "id": "ject",
+          "label": "ject · 投 / 射",
+          "meaning": "投 / 射"
+        },
+        {
+          "id": "sol",
+          "label": "sol · 单独（含同形异源对照）",
+          "meaning": "单独（含同形异源对照）"
+        }
+      ],
+      "wordCount": 16,
+      "coreWordCount": 16,
+      "supplementWordCount": 0,
+      "href": "courses/ject-sol/output/lesson.html",
+      "words": [
+        {
+          "word": "inject",
+          "root": "ject",
+          "meaning": "注射；注入"
+        },
+        {
+          "word": "eject",
+          "root": "ject",
+          "meaning": "弹出；驱逐"
+        },
+        {
+          "word": "project",
+          "root": "ject",
+          "meaning": "投射；项目"
+        },
+        {
+          "word": "reject",
+          "root": "ject",
+          "meaning": "拒绝；不接受"
+        },
+        {
+          "word": "object",
+          "root": "ject",
+          "meaning": "反对；物体"
+        },
+        {
+          "word": "subject",
+          "root": "ject",
+          "meaning": "使遭受；受……影响的；学科"
+        },
+        {
+          "word": "subjective",
+          "root": "ject",
+          "meaning": "主观的"
+        },
+        {
+          "word": "objection",
+          "root": "ject",
+          "meaning": "反对；异议"
+        },
+        {
+          "word": "objective",
+          "root": "ject",
+          "meaning": "客观的；目标"
+        },
+        {
+          "word": "objectivity",
+          "root": "ject",
+          "meaning": "客观性"
+        },
+        {
+          "word": "sole",
+          "root": "sol",
+          "meaning": "唯一的"
+        },
+        {
+          "word": "solo",
+          "root": "sol",
+          "meaning": "独奏；单独的"
+        },
+        {
+          "word": "solitude",
+          "root": "sol",
+          "meaning": "独处；独居"
+        },
+        {
+          "word": "solitary",
+          "root": "sol",
+          "meaning": "独自的；单独的"
+        },
+        {
+          "word": "isolate",
+          "root": "sol",
+          "meaning": "隔离；使分开"
+        },
+        {
+          "word": "solar",
+          "root": "sol",
+          "meaning": "太阳的；太阳能的"
+        }
+      ]
+    },
+    {
+      "id": "ceive-vac-scenes",
+      "title": "ceive / vac",
+      "order": 7,
+      "status": "ready",
+      "description": "接收物品与信息，观察空位、休假、疏散和真空的不同场景。",
+      "roots": [
+        {
+          "id": "ceive",
+          "label": "ceive · 拿 / 接收",
+          "meaning": "拿 / 接收"
+        },
+        {
+          "id": "vac",
+          "label": "vac · 空",
+          "meaning": "空"
+        }
+      ],
+      "wordCount": 8,
+      "coreWordCount": 8,
+      "supplementWordCount": 0,
+      "href": "courses/ceive-vac/output/lesson.html",
+      "words": [
+        {
+          "word": "receive",
+          "root": "ceive",
+          "meaning": "收到；接收"
+        },
+        {
+          "word": "conceive",
+          "root": "ceive",
+          "meaning": "构想；怀孕"
+        },
+        {
+          "word": "perceive",
+          "root": "ceive",
+          "meaning": "察觉；感知"
+        },
+        {
+          "word": "deceive",
+          "root": "ceive",
+          "meaning": "欺骗；误导"
+        },
+        {
+          "word": "vacation",
+          "root": "vac",
+          "meaning": "假期"
+        },
+        {
+          "word": "vacant",
+          "root": "vac",
+          "meaning": "空着的；空缺的"
+        },
+        {
+          "word": "evacuate",
+          "root": "vac",
+          "meaning": "疏散；撤离"
+        },
+        {
+          "word": "vacuum",
+          "root": "vac",
+          "meaning": "真空；吸尘器"
+        }
+      ]
+    },
+    {
+      "id": "cred-fic-scenes",
+      "title": "cred / fic",
+      "order": 8,
+      "status": "ready",
+      "description": "辨别可信与轻信，比较足够、熟练、高效和缺乏；保留正确历史词族。",
+      "roots": [
+        {
+          "id": "cred",
+          "label": "cred · 相信",
+          "meaning": "相信"
+        },
+        {
+          "id": "fic",
+          "label": "fic · 做（历史词族）",
+          "meaning": "做（历史词族）"
+        }
+      ],
+      "wordCount": 9,
+      "coreWordCount": 9,
+      "supplementWordCount": 0,
+      "href": "courses/cred-fic/output/lesson.html",
+      "words": [
+        {
+          "word": "credit",
+          "root": "cred",
+          "meaning": "信用；学分"
+        },
+        {
+          "word": "credible",
+          "root": "cred",
+          "meaning": "可信的"
+        },
+        {
+          "word": "incredible",
+          "root": "cred",
+          "meaning": "难以置信的；惊人的"
+        },
+        {
+          "word": "credulous",
+          "root": "cred",
+          "meaning": "轻信的"
+        },
+        {
+          "word": "creed",
+          "root": "cred",
+          "meaning": "信条；信仰"
+        },
+        {
+          "word": "sufficient",
+          "root": "fic",
+          "meaning": "足够的"
+        },
+        {
+          "word": "proficient",
+          "root": "fic",
+          "meaning": "熟练的；精通的"
+        },
+        {
+          "word": "efficient",
+          "root": "fic",
+          "meaning": "高效的"
+        },
+        {
+          "word": "deficient",
+          "root": "fic",
+          "meaning": "不足的；缺乏的"
+        }
+      ]
+    },
+    {
+      "id": "nov-dur-scenes",
+      "title": "nov / dur",
+      "order": 9,
+      "status": "ready",
+      "description": "新想法、旧物翻新与持续时间：从具体变化理解词义。",
+      "roots": [
+        {
+          "id": "nov",
+          "label": "nov · 新",
+          "meaning": "新"
+        },
+        {
+          "id": "dur",
+          "label": "dur · 持久",
+          "meaning": "持久"
+        }
+      ],
+      "wordCount": 7,
+      "coreWordCount": 7,
+      "supplementWordCount": 0,
+      "href": "courses/nov-dur/output/lesson.html",
+      "words": [
+        {
+          "word": "novel",
+          "root": "nov",
+          "meaning": "新颖的；小说（名词）"
+        },
+        {
+          "word": "novice",
+          "root": "nov",
+          "meaning": "新手；初学者"
+        },
+        {
+          "word": "innovate",
+          "root": "nov",
+          "meaning": "创新；采用新方法"
+        },
+        {
+          "word": "renovate",
+          "root": "nov",
+          "meaning": "翻新；修复"
+        },
+        {
+          "word": "durable",
+          "root": "dur",
+          "meaning": "耐用的"
+        },
+        {
+          "word": "endure",
+          "root": "dur",
+          "meaning": "忍受；持续"
+        },
+        {
+          "word": "duration",
+          "root": "dur",
+          "meaning": "持续时间"
+        }
+      ]
+    },
+    {
+      "id": "tend-vis-scenes",
+      "title": "tend / vis",
+      "order": 10,
+      "status": "ready",
+      "description": "看方向怎样伸展、注意力怎样指向，再用视觉检查与修改。",
+      "roots": [
+        {
+          "id": "tend",
+          "label": "tend · 伸展 / 指向",
+          "meaning": "伸展 / 指向"
+        },
+        {
+          "id": "vis",
+          "label": "vis · 看",
+          "meaning": "看"
+        }
+      ],
+      "wordCount": 11,
+      "coreWordCount": 11,
+      "supplementWordCount": 0,
+      "href": "courses/tend-vis/output/lesson.html",
+      "words": [
+        {
+          "word": "extend",
+          "root": "tend",
+          "meaning": "延长；伸展；扩大"
+        },
+        {
+          "word": "intend",
+          "root": "tend",
+          "meaning": "打算；计划"
+        },
+        {
+          "word": "pretend",
+          "root": "tend",
+          "meaning": "假装"
+        },
+        {
+          "word": "attend",
+          "root": "tend",
+          "meaning": "出席；参加；照料"
+        },
+        {
+          "word": "contend",
+          "root": "tend",
+          "meaning": "竞争；争论；主张"
+        },
+        {
+          "word": "visible",
+          "root": "vis",
+          "meaning": "可见的；看得见的"
+        },
+        {
+          "word": "visual",
+          "root": "vis",
+          "meaning": "视觉的；与看有关的"
+        },
+        {
+          "word": "visualize",
+          "root": "vis",
+          "meaning": "在脑中想象；使形象化"
+        },
+        {
+          "word": "vision",
+          "root": "vis",
+          "meaning": "视力；视觉；愿景"
+        },
+        {
+          "word": "revise",
+          "root": "vis",
+          "meaning": "修改；复习（英式用法）"
+        },
+        {
+          "word": "supervise",
+          "root": "vis",
+          "meaning": "监督；管理；指导"
+        }
+      ]
+    }
+  ]
+}
