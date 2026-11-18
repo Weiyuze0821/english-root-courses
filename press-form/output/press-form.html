@@ -110,7 +110,7 @@ window.rootSceneRenderer.getAudio=id=>audioData[id]||'';
       <main class="main">
         <nav class="stage-nav" id="stage-nav" aria-label="学习阶段"></nav>
         <article class="panel">
-          <header class="panel-top"><div><p class="eyebrow" id="eyebrow"></p><h1 id="stage-title"></h1><p class="word-meaning" id="stage-subtitle"></p></div><div class="word-arrows"><button id="previous-word" type="button" aria-label="上一个单词" aria-keyshortcuts="Meta+ArrowLeft" title="上一个单词（⌘←）">上一词</button><button id="next-word" type="button" aria-label="下一个单词" aria-keyshortcuts="Meta+ArrowRight" title="下一个单词（⌘→）">下一词</button></div></header>
+          <header class="panel-top"><div><p class="eyebrow" id="eyebrow"></p><h1 id="stage-title"></h1><p class="word-meaning" id="stage-subtitle"></p></div><div class="word-arrows"><button id="previous-word" type="button" aria-label="上一个单词" aria-keyshortcuts="Meta+ArrowLeft Meta+A" title="上一个单词（⌘← / ⌘A）">上一词</button><button id="next-word" type="button" aria-label="下一个单词" aria-keyshortcuts="Meta+ArrowRight Meta+D" title="下一个单词（⌘→ / ⌘D）">下一词</button></div></header>
           <div class="controls"><button class="primary play" type="button" id="play" aria-pressed="false">播放原速朗读</button><button type="button" id="replay">从头重播</button><span class="badge" id="origin"></span><label class="translation-control"><input type="checkbox" id="chinese" checked>中文提示</label></div>
           <div class="progress" aria-hidden="true"><span id="progress-fill"></span></div>
           <div class="content">
@@ -119,8 +119,8 @@ window.rootSceneRenderer.getAudio=id=>audioData[id]||'';
           </div>
           <p id="status" class="status" role="status" aria-live="polite"></p>
         </article>
-        <nav class="step-controls" aria-label="按顺序学习"><button type="button" id="previous-step" aria-keyshortcuts="ArrowLeft" title="上一阶段（←）">← 上一阶段</button><span class="step-hint" id="step-hint"></span><button type="button" id="next-step" aria-keyshortcuts="ArrowRight" title="下一阶段（→）">下一阶段 →</button></nav>
-        <p class="footer-note">快捷键：← / → 切换阶段 · ⌘← / ⌘→ 切换单词</p>
+        <nav class="step-controls" aria-label="按顺序学习"><button type="button" id="previous-step" aria-keyshortcuts="ArrowLeft A" title="上一阶段（← / A）">← 上一阶段</button><span class="step-hint" id="step-hint"></span><button type="button" id="next-step" aria-keyshortcuts="ArrowRight D" title="下一阶段（→ / D）">下一阶段 →</button></nav>
+        <p class="footer-note">快捷键：← / → 或 A / D 切换阶段 · ⌘← / ⌘→ 或 ⌘A / ⌘D 切换单词</p>
       </main>
     </div>
   </div>
@@ -202,13 +202,14 @@ window.rootSceneRenderer.getAudio=id=>audioData[id]||'';
   $('chinese').addEventListener('change',()=>{state.chinese=$('chinese').checked;document.querySelectorAll('[data-chinese]').forEach(n=>n.hidden=!state.chinese);save();});
   document.addEventListener('keydown',event=>{
     if(event.key==='Escape'){stop();return;}
-    if(event.defaultPrevented||event.isComposing||event.repeat||!['ArrowLeft','ArrowRight'].includes(event.key))return;
+    const key=event.key.toLowerCase(),direction=key==='arrowleft'||key==='a'?-1:key==='arrowright'||key==='d'?1:0;
+    if(event.defaultPrevented||event.isComposing||event.repeat||!direction)return;
     const target=event.target;
     if(target instanceof Element&&(target.isContentEditable||target.closest('textarea,select,[role="textbox"],[role="combobox"],[role="slider"],[role="spinbutton"],input:not([type="checkbox"]):not([type="button"]):not([type="submit"]):not([type="reset"])')))return;
     if(event.ctrlKey||event.altKey||event.shiftKey)return;
     event.preventDefault();
-    if(event.metaKey)moveWord(event.key==='ArrowRight'?1:-1);
-    else if(event.key==='ArrowRight')nextStep();
+    if(event.metaKey)moveWord(direction);
+    else if(direction>0)nextStep();
     else previousStep();
   });document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
   render();if(deepLinked)save();
